@@ -172,7 +172,7 @@ The GGUF inference backend can be changed from **Settings > System > GGUF infere
 To pick it before the first launch instead, set `UNSLOTH_LLAMA_CPP_BACKEND` **before installing or updating**. It selects the llama.cpp binary bundle, so setting it only when launching Studio cannot replace an existing one, and it overrides whatever was chosen in Settings:
 
 ```bash
-export UNSLOTH_LLAMA_CPP_BACKEND=vulkan   # or cpu, cuda, rocm, auto
+export UNSLOTH_LLAMA_CPP_BACKEND=vulkan   # or cpu, cuda, rocm, autoo
 curl -fsSL https://unsloth.ai/install.sh | sh
 ```
 
