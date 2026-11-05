@@ -305,7 +305,6 @@ cd unsloth && git pull
 ./install.sh --local
 unsloth studio -p 8888
 ```
-
 #### Developer / Nightly / Experimental installs: Windows PowerShell:
 The developer install builds from the `main` branch, which is the latest (nightly) source.
 ```powershell
